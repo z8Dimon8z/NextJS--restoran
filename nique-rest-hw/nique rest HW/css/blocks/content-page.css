@@ -1,0 +1,36 @@
+.content-page {
+}
+
+.content-page .title-1 {
+	margin: 1em 0 0.5em;
+	font-size: 38px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.content-page .title-2 {
+	margin: 1em 0 0.5em;
+	font-size: 24px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.content-page .title-3 {
+	margin: 1em 0 0.5em;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.content-page p {
+	margin: 1em 0;
+	font-size: 16px;
+	line-height: 1.6;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.content-page .content-img {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+}

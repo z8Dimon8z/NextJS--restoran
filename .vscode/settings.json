@@ -1,0 +1,28 @@
+{
+	// Автоформатирование при сохранении
+	"editor.formatOnSave": true,
+
+	// Используем Prettier как основной форматтер
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	// Включаем поддержку .editorconfig
+	"editorconfig.enable": true,
+
+	// Чтобы в разных ОС были одинаковые переводы строк
+	"files.eol": "\n",
+
+	// Автосохранение пробелов в конце файлов
+	"files.insertFinalNewline": true,
+
+	// Для JS/TS: сохраняем импорты в порядке
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"javascript.preferences.importModuleSpecifier": "relative",
+
+	// Автоматически сортировать и удалять неиспользуемые импорты
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	}
+}

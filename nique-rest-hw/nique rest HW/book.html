@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta name="viewport"
+		content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, target-densitydpi=device-dpi">
+	<title>Nique restaurant</title>
+	<link rel="stylesheet" href="./css/main.css">
+
+	<link rel="icon" type="image/x-icon" href="./img/favicon/favicon.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+</head>
+
+<body>
+
+	<header class="header">
+		<a href="#" class="header-logo">
+			nique.
+		</a>
+
+		<div class="header-content">
+			<h1 class="header-title">
+				The pure taste of
+				<span>Thailand</span>
+			</h1>
+			<p>
+				Изысканные блюда, приготовленные по традиционным рецептам в лучших кулинарных традициях Азии
+			</p>
+		</div>
+
+		<nav class="header-nav nav">
+			<a href="index.html" class="nav-link">Меню</a>
+			<a href="about.html" class="nav-link">О ресторане</a>
+			<a href="blog.html" class="nav-link">Блог</a>
+			<a href="book.html" class="nav-link primary">Забронировать стол</a>
+		</nav>
+	</header>
+
+	<main class="main">
+		<div class="container">
+			<div class="book">
+				<section class="book-form">
+					<div class="book-form__header">
+						<h1 class="book-form__title">Забронировать столик</h1>
+						<p class="book-form__subtitle">
+							В нашем ресторане царит непринужденная и уютная атмосфера. Чтобы отразить эту атмосферу, мы
+							придерживаемся формального
+							стиля одежды.
+						</p>
+
+						<div class="book-alert book-alert--success">
+							<strong class="book-alert__title">Бронь подтверждена</strong>
+							<p class="book-alert__text">Мы закрепили за вами столик и отправили подтверждение на почту и в Telegram.</p>
+						</div>
+
+						<div class="book-alert book-alert--error">
+							<strong class="book-alert__title">Ошибка бронирования</strong>
+							<p class="book-alert__text">Не удалось сохранить запрос. Проверьте данные или позвоните администратору.</p>
+						</div>
+					</div>
+
+					<form class="book-form__body" action="#" method="post">
+						<label class="book-form__field">
+							<span class="book-form__label">Имя</span>
+							<input class="book-form__input" type="text" name="name" placeholder="Имя" required>
+						</label>
+
+						<label class="book-form__field">
+							<span class="book-form__label">Телефон / Email / или @никнейм в Telegram</span>
+							<input class="book-form__input" type="text" name="contact" placeholder="Контактные данные" required>
+						</label>
+
+						<label class="book-form__field">
+							<span class="book-form__label">Количество гостей</span>
+							<input class="book-form__input" type="number" min="1" max="12" name="guests" value="2">
+						</label>
+
+						<div class="book-form__row">
+							<label class="book-form__field">
+								<span class="book-form__label">Дата</span>
+								<input class="book-form__input" type="date" name="date" placeholder="19.08.22">
+							</label>
+							<label class="book-form__field">
+								<span class="book-form__label">Время</span>
+								<input class="book-form__input" type="time" name="time" placeholder="6:00pm">
+							</label>
+						</div>
+
+						<button class="book-form__submit" type="submit">Забронировать</button>
+					</form>
+				</section>
+			</div>
+
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-row">
+				<div class="footer-info">
+					<div class="footer-logo">nique.</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="./js/main.js"></script>
+
+</body>
+
+</html>
